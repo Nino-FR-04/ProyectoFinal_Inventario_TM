@@ -5,9 +5,8 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class RetrofitClient {
 
-    // Cambia por la IP de tu servidor
     private static final String BASE_URL =
-            "http://172.16.10.31:30050/api/";
+            "http://172.16.10.31:30050/";
 
     private static Retrofit retrofit;
 
